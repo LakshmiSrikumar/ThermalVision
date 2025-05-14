@@ -2,7 +2,7 @@
 
 ThermalVision is an Android application designed to analyze thermal images for temperature detection, hotspot identification, and interactive analysis. Built using **Kotlin** with **Jetpack Compose** and integrated with **Chaquopy** for embedded Python-based image processing, the app delivers a lightweight, offline-first solution for real-time thermal diagnostics.
 
----
+
 
 ## 📱 Features
 
@@ -11,11 +11,13 @@ ThermalVision is an Android application designed to analyze thermal images for t
 - Real-time **temperature detection** at user-tapped coordinates.
 - Export results as a **CSV file** with temperature data and image metadata.
 - Built using **Kotlin + Compose UI** and **scikit-image (Python)** .
+- Works on Android 13 (Tiramisu) and above .
 
----
+
 
 ## 📁 Project Structure
 
+```text
 ThermalVision/
 ├── app/
 │   ├── src/
@@ -38,20 +40,21 @@ ThermalVision/
 ├── build.gradle.kts                           # Root-level Gradle config
 ├── .gitignore
 └── README.md
+```
 
 
 ## 📸 Screenshots
 
-| Landing Page | Uploading Image | Analysis Results |
-|--------------|------------------------|------------------|
-| ![Landing](![Screenshot_20250423_030051_ThermalApp](https://github.com/user-attachments/assets/0af9c30c-8d65-4332-96b0-91a94301e064)) | ![Upload](![Screenshot_20250423_030051_ThermalApp](https://github.com/user-attachments/assets/cca7e247-cae5-43a4-bdbd-19b328287edf)) | ![Results](![Screenshot_20250423_030138_ThermalApp](https://github.com/user-attachments/assets/dcb1e480-0f60-4fb6-96c1-1adb2807d1ce)) |
+| Landing Page | Uploading Image | Analysis  | Result | 
+|--------------|------------------------|------------------|------------------|
+| ![Landing](https://github.com/LakshmiSrikumar/ThermalVision/blob/72d7fc54f77dc1e4896da7f19941fc5dfba1e3b0/media/home_screen.jpg) | ![Upload](https://github.com/LakshmiSrikumar/ThermalVision/blob/72d7fc54f77dc1e4896da7f19941fc5dfba1e3b0/media/upload.jpg) | ![Analysis](https://github.com/LakshmiSrikumar/ThermalVision/blob/72d7fc54f77dc1e4896da7f19941fc5dfba1e3b0/media/Analysis.jpg) |  ![Result](https://github.com/LakshmiSrikumar/ThermalVision/blob/72d7fc54f77dc1e4896da7f19941fc5dfba1e3b0/media/Sheets.jpg) |
 
----
 
 ## 🎥 Demo Video
 
-Watch the working of the app here:  
-[![Watch the video](https://github.com/user-attachments/assets/0fc00ad4-eee6-492c-91df-1e52c9747ab6)
+Watch the working of the app here:
+
+https://github.com/user-attachments/assets/387266ff-f824-4b75-8968-55a50274f002
 
 
 ---
@@ -61,4 +64,6 @@ Watch the working of the app here:
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/LakshmiSrikumar/ThermalVision.git
-   cd thermalvision-app
+   cd ThermalVision
+
+
