@@ -1,4 +1,4 @@
-#  ThermalVision – An Android Thermal Image Analysis App
+#  ThermalVision – An Android Thermal Image Processing App
 
 ThermalVision is an Android application designed to analyze thermal images for temperature detection, hotspot identification, and interactive analysis. Built using **Kotlin** with **Jetpack Compose** and integrated with **Chaquopy** for embedded Python-based image processing, the app delivers a lightweight, offline-first solution for real-time thermal diagnostics.
 
